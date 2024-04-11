@@ -4,7 +4,7 @@
   "description": "## Descripción",
   "main": "dist/server.js",
   "scripts": {
-    "build": "tsc build --output public",
+    "build": "tsc",
     "start": "node dist/server.js",
     "dev": "nodemon --files src/server.ts",
     "db:drop": "npx typeorm-ts-node-commonjs schema:drop -d ./src/database/data-source.ts",
