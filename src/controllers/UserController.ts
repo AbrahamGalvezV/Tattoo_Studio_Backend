@@ -19,6 +19,7 @@ export const userController = {
         },
         where:{
           id:userId
+          
         }
       });
 

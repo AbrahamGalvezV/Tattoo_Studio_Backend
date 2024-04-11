@@ -20,6 +20,8 @@ export const auth = (req: Request, res: Response, next: NextFunction) => {
     req.tokenData = {
       userId: decoded.userId,
       userRole: decoded.userRole,
+      userName: decoded.userName,
+
     };
 
     next();
