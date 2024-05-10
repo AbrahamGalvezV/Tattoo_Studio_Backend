@@ -17,7 +17,7 @@ router.get('/artist',auth,authorize(["artist"]), appointmentController.getByLoge
 router.get('/',auth,authorize(["admin"]), appointmentController.getAll);
 
 // Obtener cita by id
-router.get("/:id",auth,authorize(["admin"]), appointmentController.getById);
+router.get("/:id",auth,authorize(["artist", "admin", 'client']), appointmentController.getById);
 
 // Nueva cita
 router.post('/',auth, authorize(["admin"]), appointmentController.create);

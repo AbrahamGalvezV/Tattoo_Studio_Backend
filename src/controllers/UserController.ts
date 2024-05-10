@@ -106,8 +106,8 @@ async editUserRole(req:Request,res:Response){
   }
 },
 
-// Lista de artistas
-async getAllArtists(req: Request, res: Response): Promise<void> {
+// Lista de clients
+async getAllClients(req: Request, res: Response): Promise<void> {
   try {
     const page = Number(req.query.page) || 1;                                  // numero de pagina
     const limit = Number(req.query.limit) || 10;                               // limite de users
@@ -125,9 +125,9 @@ async getAllArtists(req: Request, res: Response): Promise<void> {
         roleId: true,
 
       },
-      where:{roleId: 2},
+      where:{roleId: 3},
       skip: (page - 1) * limit,                                                 // muestra los users de 10 en 10
-      take: limit,
+      take: limit
     });
 
     if (totalUsers === 0) {

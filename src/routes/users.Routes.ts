@@ -19,6 +19,9 @@ router.post("/",auth,authorize(["admin"]), userController.create);
 // Lista de usuarios
 router.get("/", auth,authorize(["admin", 'artist']), userController.getAll);
 
+// Lista de clients
+router.get("/clients", auth,authorize(["admin", 'artist']), userController.getAllClients);
+
 // Detalles de usuarios by id
 router.get("/:id",auth,authorize(["admin", 'artist']), userController.getById);
 
