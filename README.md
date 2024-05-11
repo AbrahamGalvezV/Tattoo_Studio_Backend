@@ -219,7 +219,7 @@ Proyecto realizado con el objetivo de poner a prueba con un proyecto real lo apr
 
             body: Se incluye el o los parámetros a modificar
 
-- Esta ruta puede ser usada por: admin,  artist y client.
+- Esta ruta puede ser usada por: admin, artist y client.
 
 + Introducir token para la identificación.
 
@@ -254,7 +254,7 @@ Proyecto realizado con el objetivo de poner a prueba con un proyecto real lo apr
 
         GET  `/api/appointments/{id:}`
 
-- Esta ruta puede ser usada por: admin.
+- Esta ruta puede ser usada por: admin, artist y client.
 
 + Introducir token para la identificación.
 
