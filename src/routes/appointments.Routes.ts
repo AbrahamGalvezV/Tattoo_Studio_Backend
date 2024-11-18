@@ -20,7 +20,7 @@ router.get('/',auth,authorize(["admin"]), appointmentController.getAll);
 router.get("/:id",auth,authorize(["artist", "admin", 'client']), appointmentController.getById);
 
 // Nueva cita
-router.post('/',auth, authorize(["admin"]), appointmentController.create);
+router.post('/',auth, authorize(["admin", 'client']), appointmentController.create);
 
 // Actualizar cita
 router.put('/:id',auth,authorize(["artist", "admin"]), appointmentController.update);
