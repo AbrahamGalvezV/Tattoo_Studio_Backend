@@ -381,5 +381,5 @@ Proyecto realizado con el objetivo de poner a prueba con un proyecto real lo apr
 
 ## Contacto
 
-<a href="https://www.linkedin.com/in/abraham-g%C3%A1lvez-vives-25ab532bb/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a> 
+<a href="https://www.linkedin.com/in/abraham-galvez-vives/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a> 
 </p>
